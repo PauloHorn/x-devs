@@ -1,3 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 body {
+    font-family: 'outfit', sans-serif;
     background-image: url(../images/fundo-base.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.cabecalho {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.cabecalho h1 {
+    color: #f1ecff;
+    font-size: 45px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.personagens-slider {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.lista-personagens {
+    background-color: orange;
+    width: 330px;
+    height: 520px;
+}
+
+.btn-seta {
+    background-color: #ffffff;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-seta.btn-voltar {
+    transform: rotate(180deg);
+}
+
+.btn-seta:hover {
+    background-color: #8351fe;
+    transition: 0.5s;
 }
